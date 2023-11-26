@@ -11,7 +11,7 @@ const FeaturedCard = () => {
           try {
             const res = await findIndividualsWithMoreThanOnePrize();
             setFeaturedIndividual(res);
-            console.log(res);
+            console.log("Featured winners",res);
           } catch (error) {
             console.error("Error fetching data:", error);
           }

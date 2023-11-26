@@ -13,10 +13,6 @@ const Accordion = ({ prizes }) => {
     });
   };
 
-  useEffect(() => {
-    console.log(prizes);
-  }, [prizes]);
-
   return (
     <>
       {Array.isArray(prizes) &&

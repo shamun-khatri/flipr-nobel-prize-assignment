@@ -57,11 +57,11 @@ const MainComponent = ({handleYearData, options, data}) => {
     setCategory(option);
   };
 
-  useEffect(() => {
-    handleYearData(yearRange, category);
-    console.log("yearRange", yearRange);
-    console.log("Category", category);
-  }, [yearRange, category]);
+  // useEffect(() => {
+  //   handleYearData(yearRange, category);
+  //   console.log("yearRange", yearRange);
+  //   console.log("Category", category);
+  // }, [yearRange, category]);
 
   return (
     <div className="bg-white">

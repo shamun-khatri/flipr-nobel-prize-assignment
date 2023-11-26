@@ -55,7 +55,7 @@ export const findIndividualsWithMoreThanOnePrize = async () => {
       const laureatesWithMoreThanOnePrize = Array.from(laureatesMap.values()).filter(
         ({ prizes }) => prizes.length > 1
       );
-  
+
       return laureatesWithMoreThanOnePrize;
     } catch (error) {
       console.error("Error fetching and processing data:", error);
